@@ -20,7 +20,14 @@ public class FactorialNumber {
 				// welcome message for the user
 				System.out.println("Welcome to the Factorial Calculator!");
 				
-				
+				while (choice.equalsIgnoreCase("y")) {
+					
+					// prompt the user to enter an integer
+					System.out.println("Enter an integer that's greater than 0 but less than 10: ");
+
+				}
+
+
 				
 
 	}
