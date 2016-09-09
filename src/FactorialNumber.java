@@ -24,7 +24,7 @@ public class FactorialNumber {
 				while (choice.equalsIgnoreCase("y")) {
 					
 					// prompt the user to enter an integer
-					System.out.println("Enter an integer that's greater than 0 but less than 10: ");
+					System.out.println("Enter an integer that's greater than 1 but less than equal  65: ");
 
 					
 					// store the user input data into the int variable 'num'
@@ -35,7 +35,7 @@ public class FactorialNumber {
 					//<= less than or equal to 10. BOTH conditions must evaluate to true
 					//  in order to enter the 'if-statement
 					
-					if (num > 0 && num <= 10) {
+					if (num > 0 && num <= 65) {
 						
 						long result = 1; // declare and initialize a local variable 
 						
@@ -52,7 +52,7 @@ public class FactorialNumber {
 
 						//enter the 'else-statement'  the block of code that will run if the if statement is false
 				
-						}else{System.out.println("Please enter an integer that's greater than 0 but less than 10: ");
+						}else{System.out.println("Please enter an integer that's greater than 1 but less than equal 65: ");
 						
 						
 					}
